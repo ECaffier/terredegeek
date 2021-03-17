@@ -1,0 +1,73 @@
+#banner{
+   width: 360px;
+   height: auto;
+}
+body{
+    background-image: url("../img/fondvergris.jpg");
+    background-attachment: fixed;
+
+}
+
+#foso{
+    max-width: 360px;
+    max-height: auto;
+}
+p{
+    color:#cbccc6;
+}
+#products
+{
+    color:#f0eddf;
+    text-decoration: underline;
+}
+#logotwitter
+{
+    max-width:60px;
+    max-height: auto;
+}
+a{
+    color: #ccb8f5;
+}
+h2
+{
+    color:#dec1c5;
+}
+h3
+{
+    color:#dec1c5;
+}
+#plusinfos
+{
+    position: absolute;
+    bottom:-260px;
+}
+.foto{
+    max-width: 220px;
+    max-height: auto;
+
+}
+h4
+{
+    color:#f0eddd;
+    font-size: smaller;
+}
+.nom
+{
+    text-align: center;
+}
+.centerfoto
+{
+   text-align: center;
+}
+.fotoprix
+{
+    max-width: 160px;
+    max-height: auto;
+}
+.plusinfos
+{
+    max-width: 145px;
+    max-height: auto;
+    position: absolute;
+    right :9px;
+}

@@ -10,7 +10,7 @@ body{
 
 }
 /* i set the size of products image in the first page*/ 
-#foso{
+.foso{
     max-width: 360px;
     max-height: auto;
 }
@@ -25,14 +25,16 @@ p{
     text-decoration: underline;
 }
 /* i resized the twitter logo*/ 
-#logotwitter
+.logors
 {
     max-width:60px;
     max-height: auto;
+    margin-left: 20px;
 }
 /* i changed the link color cuz i work on dark background*/ 
 a{
     color: #ccb8f5;
+
 }
 /* i changed the h2 & h3 color cuz i work on dark background*/ 
 h2
@@ -78,4 +80,10 @@ h4
     max-height: auto;
     position: absolute;
     right :9px;
+}
+.topmenu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
 }

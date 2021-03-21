@@ -1,0 +1,90 @@
+/* i set the banner size, here 360px cuz i work for mobile only*/ 
+#banner{
+   width: 360px;
+   height: auto;
+}
+/* i set a background img for my website and fix it then he dont move*/ 
+body{
+    background-image: url("../img/fondvergris.jpg");
+    background-attachment: fixed;
+
+}
+/* i set the size of products image in the first page*/ 
+.foso{
+    max-width: 360px;
+    max-height: auto;
+}
+/* i change the color of paragraph police to a light one cuz i prefer to use dark background*/ 
+p{
+    color:#cbccc6;
+}
+/* change the color of the products paragraph and underline it */ 
+#products
+{
+    color:#f0eddf;
+    text-decoration: underline;
+}
+/* i resized the twitter logo*/ 
+.logors
+{
+    max-width:60px;
+    max-height: auto;
+    margin-left: 20px;
+}
+/* i changed the link color cuz i work on dark background*/ 
+a{
+    color: #ccb8f5;
+
+}
+/* i changed the h2 & h3 color cuz i work on dark background*/ 
+h2
+{
+    color:#dec1c5;
+}
+h3
+{
+    color:#dec1c5;
+}
+/* i resized the pictures on the about us*/
+.foto{
+    max-width: 220px;
+    max-height: auto;
+
+}
+/* i resized h4 police a bit smaller and change color because of dark background*/
+h4
+{
+    color:#f0eddd;
+    font-size: smaller;
+}
+/* i set to center the name of the member in the about us*/
+.nom
+{
+    text-align: center;
+}
+/* if set to center the foto of members*/
+.centerfoto
+{
+   text-align: center;
+}
+/* i adjust the size of the price picture*/
+.fotoprix
+{
+    max-width: 160px;
+    max-height: auto;
+}
+/* i adjust the size of the plusd'infos pictures and moved it a bit*/
+.plusinfos
+{
+    max-width: 145px;
+    max-height: auto;
+    position: absolute;
+    right :9px;
+}
+/*had flexbox for navigation menu */
+.topmenu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}

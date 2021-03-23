@@ -1,35 +1,46 @@
-/* i set the banner size, here 360px cuz i work for mobile only*/ 
-#banner{
-   width: 360px;
-   height: auto;
-}
-/* i set a background img for my website and fix it then he dont move*/ 
-body{
+/* i set margin to 0 and a background img for my website and fix it then he dont move*/ 
+
+*{
+    margin: 0;
     background-image: url("../img/fondvergris.jpg");
     background-attachment: fixed;
-
 }
+
+/* i set the banner size, here 360px cuz i work for mobile only*/ 
+#banner{
+   width: 100vw;
+   height: auto;
+}
+
 /* i set the size of products image in the first page*/ 
 .foso{
-    width: 360px;
+    width: 100vw;
     max-height: auto;
 }
 /* i change the color of paragraph police to a light one cuz i prefer to use dark background*/ 
 p{
     color:#cbccc6;
+    font-size: 5vw;
 }
 /* change the color of the products paragraph and underline it */ 
 #products
 {
     color:#f0eddf;
     text-decoration: underline;
+    font-size: 5vw;
+
 }
 /* i resized the twitter logo*/ 
 .logors
 {
-    max-width:60px;
-    max-height: auto;
-    margin-left: 20px;
+    width:10vw;
+    height: auto;
+}
+.logoz{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 /* i changed the link color cuz i work on dark background*/ 
 a{
@@ -47,8 +58,8 @@ h3
 }
 /* i resized the pictures on the about us*/
 .foto{
-    max-width: 220px;
-    max-height: auto;
+    width: 40vw;
+    height: auto;
 
 }
 /* i resized h4 police a bit smaller and change color because of dark background*/
@@ -61,25 +72,22 @@ h4
 .nom
 {
     text-align: center;
+    font-size: 5vw;
 }
 /* if set to center the foto of members*/
 .centerfoto
 {
    text-align: center;
+
 }
-/* i adjust the size of the price picture*/
-.fotoprix
+
+/*i adjust the size of the price picture & i adjust the size of the plusd'infos pictures and moved it a bit*/
+.plusinfos, .fotoprix
 {
-    max-width: 160px;
-    max-height: auto;
-}
-/* i adjust the size of the plusd'infos pictures and moved it a bit*/
-.plusinfos
-{
-    max-width: 145px;
-    max-height: auto;
-    position: absolute;
-    right :9px;
+    width: 45vw;
+    height: auto;
+
+
 }
 /*had flexbox for navigation menu */
 .topmenu
@@ -87,4 +95,14 @@ h4
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+    font-size: 4vw ;
+}
+
+h1, h2, h3, h4, h5,p{
+    font-size: 5vw;
+}
+.achats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

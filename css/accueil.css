@@ -106,3 +106,13 @@ h1, h2, h3, h4, h5,p{
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+
+
+/* new css :*/
+
+table{
+    color: red;
+    font-size: 5vw;
+}

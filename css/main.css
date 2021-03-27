@@ -87,7 +87,215 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* ==========================================================================
+
+*{   
+    font-size: 5vw;
+    background-color: #111812;
+    color: #DABECA;
+    text-decoration: none;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: #B5A4DF;
+}
+
+h1{
+  margin-top:10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.logoTdg{
+  background-color:#9A6D38 ;
+}
+
+.picProduct{
+  width: 100vw;
+  height: auto;
+}
+
+.logoRsGlobal{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+}
+.logoRs{
+  width: 15vw;
+  height: auto;
+}
+
+.productPageMenu{
+  background-color: #33673B;
+  width: 40vw;
+  height: 20vh;
+  border: solid #566161;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.pageMenus{
+  display: flex;
+  justify-content: space-around;
+}
+.nom, .centerPic{
+  text-align: center;
+
+}
+.memberPic{
+  width: 40vw;
+  height: auto;
+}
+
+.productImg{
+  display: flex;
+  justify-content: center;
+}
+
+table, td {
+  border: 1px solid #D2D4C8;
+}
+
+.footerMenu{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+}
+.footerSize{
+  font-size: 4vw;
+}
+
+.bottom{
+  margin-top:15vh;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ .navBar {
+  background-color: #333;
+  position: fixed;
+  top: 0; 
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.navBar a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:3vw;
+}
+.navBar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.videoResponsive { 
+  overflow:hidden; padding-bottom:56.25%; position:relative; height:0;
+}
+
+.videoResponsive iframe {
+   left:0; top:0; height:100%; width:100%; position:absolute;
+  }
+
+.repaIpad, .repaDesktop{
+  display: none;
+}
+@media screen and (min-width : 720px){
+  *{
+    font-size: 4vw;
+  }
+  .repaIpad{
+  display: block;
+  }
+  .repaPhone{
+  display: none;
+  }
+  .footerSize{
+    font-size: 3vw;
+    display: flex;
+    justify-content:space-around;
+  }
+  .logoRs{
+    width: 8vw;
+    height: auto;
+  }
+}
+
+@media screen and (min-width : 1024px){
+  *{
+    font-size: 2vw;
+  }
+  .repaIpad, .repaPhone{
+    display: none;
+  }
+  .productImg{
+    width: 50vw;
+    display: flex;
+    justify-content: left;
+    }
+ 
+  .picProduct{
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    margin-right: 5px;
+  }
+  .repaDesktop{
+    display: block;
+  }
+  .productRef{
+    display: flex;
+    width: 100px;
+  }
+  .productText{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logoRs{
+    width: 5vw;
+    height: auto;
+  }
+
+  .footerSize{
+    font-size: 1vw;
+    display: flex;
+    justify-content:space-around;
+  }
+  
+  .productText p{
+  width: 50vw;
+  }
+
+  .navBar a {
+ 
+    font-size:2vw;
+  }
+
+  .firstParagraph{
+    font-size: 2.3vw;
+  }
+
+  /* ==========================================================================
    Helper classes
    ========================================================================== */
 

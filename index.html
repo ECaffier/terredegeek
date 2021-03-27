@@ -1,84 +1,222 @@
 <!doctype html>
-<!-- In my head i have the link to my css page, my title and my favicon --> 
+<html class="no-js" lang="">
+
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/accueil.css" />
-  <title>Terre De Geek</title>
+  <title>Terre de Geek</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
   <link rel="icon" href="favicon.ico" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
 </head>
 
-<body> 
-<!--in my header i have my banner who is linked to the index page. My id products for when people click on products. a mailto to contact me and a who i am who is linked to the
-"qui sommes nous" page.--> 
-<header>
-  <a href="index.html"> <img id="banner" src="img/Bannière-Melting.png" alt="bannière" /> </a>
-  <div class="topmenu">
-    <a href="#products">Produits</a>
-    <a href="mailto:caffier.ed@gmail.com">Contactez-nous</a>
-    <a href ="quisommesnous.html">Qui sommes-nous ?</a>
-  </div>
-</header>
-  <!-- Introduction paragraph --> 
-  <p>Terre de geek est une société spécialisé dans l'achat de vente de produits de qualités pour les gamers. <br></p>
-  <!-- id product to let people come here if they click "produits"--> 
-  <div id="products">Nos Produits :</div>
-  <!-- the title of my first article and the image--> 
-  <h2>Notre casque trop bien !</h2>
-  <a href="produit1.html"> <img class="foso" src="img/casque.jpg" alt="Photo casque"/> </a>
-  <h3>LE SON DE L’ESPORT</h3>
-  <!-- Little description of the product-->
-  <p>
-    Si vous ne vivez que pour la compétition, vivez-la à fond avec le Razer BlackShark V2 Pro, le casque de jeu esport ultime, déchaîné. Alimenté par la technologie Razer™ HyperSpeed Wireless, ce casque est l’arme parfaite grâce à sa clarté de micro absolue, son audio et son isolation sonore qui s’associent pour vous aider à atteindre les plus hautes sphères du jeu.
-  </p>
-  <div class="achats">
-    <!-- image that show price and if people click they're redirected to shipping  --> 
-    <a href="http://amazon.com">  <img class="fotoprix" src="img/prixcasque.png" alt="image prix"/> </a>
-    <!-- image that let pple know they can have more info if they click on it --> 
-    <a href="produit1.html"><img class="plusinfos" src="img/plusinfos.png" alt="photo casque" /></a>
-  </div>
-  <!-- the title of my second article and the image--> 
-  <h2>Notre chaise au top !</h2>
-  <a href="produit2.html"><img class="foso" src="img/chaise.jpg" alt="Photo chaise"/></a>
-  <h3>FORME PARFAITE POUR LE JEU</h3>
-  <!-- Little description of the product-->
-  <p>
-    Écrasez la concurrence en tout confort avec le Razer Iskur, notre siège ergonomique conçu pour le jeu hardcore qui vous permet de conserver une posture parfaite. Lorsqu’il s’agit de maintenir la bonne position, nous serons toujours à vos côtés.
-  </p>
-  <div class="achats">
-    <!-- image that show price and if people click they're redirected to shipping  --> 
-    <a href="http://amazon.com">  <img class="fotoprix" src="img/prixchaise.png" alt="image prix" /> </a>
-    <!-- image that let pple know they can have more info if they click on it -->
-    <a href="produit2.html"><img class="plusinfos" src="img/plusinfos.png"  alt="plus d'infos"/></a>
-  </div>
-  <!-- the title of my third article and the image--> 
-  <h2>Notre souris de ouf !</h2>
-  <a href="produit3.html"><img class="foso" src="img/souris.jpg" alt="Photo souris"/></a>
-  <h3>DEVANCEZ VOS ADVERSAIRES. 8 FOIS PLUS VITE </h3>
-    <!-- Little description of the product-->
-  <p>
-    La technologie Razer™ HyperPolling dépasse la norme standard de l’industrie en offrant un polling rate de 8000 Hz : elle permet d’envoyer jusqu’à 8 fois plus de données en une seconde tout en réduisant le délai de 1 à 1/8 de milliseconde. 
-  </p>
-  <div class="achats">
-    <!-- image that show price and if people click they're redirected to shipping  --> 
-    <a href="http://amazon.com"> <img class="fotoprix" src="img/prixsouris.png" alt="image prix" /> </a>
-    <!-- image that let pple know they can have more info if they click on it -->
-    <a href="produit3.html"><img class="plusinfos" src="img/plusinfos.png" alt ="plus d'infos"/></a>
-  </div>
-<!-- my footer contain the twitter logo that send u to twitter, the mailto u also have in the header and the same "quisommesnous" link as in the header-->
-<footer>
-  <div class="topmenu">
-    <a href="mailto:caffier.ed@gmail.com">Contactez-nous</a>
-    <a href ="quisommesnous.html">Qui sommes-nous ?</a>
-    <a href="legal.html">Mentions légales</a>
-</div>
-  <p>Réseaux sociaux :</p>
-  <div class="logoz">
-    <a href="https://twitter.com"> <img class="logors" src="img/twitterlogo.png" alt="logo twitter"/></a>
-    <a href="https://facebook.com"> <img class="logors" src="img/facebooklogo.jpg" alt="logo facebook"/></a>
-    <a href="https://instagram.com"> <img class="logors" src="img/instalogo.png" alt="logo insta"/></a>
-    <a href="https://linkedin.com"> <img class="logors" src="img/linkedinlogo.jpg" alt="logo linkedin"/></a>
-</div>
-</footer>
+<body>  
+  <header>
+    <nav>
+      <h1>Terre de Geek</h1>
+      <div class="navBar">
+        <a href="index.html">Home</a>
+        <a href="#products">Products</a>
+        <a href="contactus.html">Contact us</a>
+        <a href ="quisommesnous.html">About us</a>
+        <a href ="presta.html">Prestations</a>
+      </div>
+    </nav>
 
+  </header>
+  <main>
+    <section>
+      <h2>Notre identité</h2>
+      <p class="firstParagraph">Terre de geek est une société spécialisé dans l'achat de vente de produits de qualités pour les gamers. <br></p>
+    </section>
+    <section>
+      <article>
+        <header>
+          <h2>Produit du mois</h2>
+          <h3>Le meilleur ecran !</h3>
+        </header>
+        <section class="productRef">
+          <div class="productImg">
+            <a href="produitmonth.html"> <img class="picProduct" src="img/ecran.jpg" alt="Photo d'un ecran"/> </a>
+          </div>
+          <div class="productText">
+            <h3>PARFAIT AU PIXEL PRÈS</h3>
+            <p>
+              Un moniteur de jeu exige des performances extrêmes en termes de vitesse et de clarté, pour vous permettre de réagir en une fraction de seconde. Il doit également être capable d’afficher des couleurs vives et profondes et une image plus vraie que nature pour créer un sentiment d’immersion. Le Razer Raptor a été créé pour être l’incarnation tout cela, et plus encore. Cet écran sans compromis affiche une qualité d’image à couper le souffle pour votre poste de combat.
+            </p>
+          </div>
+      </article>
+    </section>
+    <footer>
+      <div class="pageMenus">
+        <div class="productPageMenu">
+          <a href="presta.html">Découvrez le produit du mois</a>
+        </div>
+      </div>
+    </footer>
+    <section>
+      <h2 id="products">Nos Produits :</h2>
+        <article>
+          <header>
+            <h3>Notre casque trop bien !</h3>
+          </header>
+          <section class="productRef">
+            <div class="productImg">
+              <a href="produit1.html"> <img class="picProduct" src="img/casque.jpg" alt="Photo casque"/> </a>
+            </div>
+            <div class="productText">
+              <h3>LE SON DE L’ESPORT</h3>
+              <p>Si vous ne vivez que pour la compétition, vivez-la à fond avec le Razer BlackShark V2 Pro, le casque de jeu esport ultime, déchaîné. Alimenté par la technologie Razer™ HyperSpeed Wireless, ce casque est l’arme parfaite grâce à sa clarté de micro absolue, son audio et son isolation sonore qui s’associent pour vous aider à atteindre les plus hautes sphères du jeu.</p>
+            </div>
+        </section>
+        <footer>
+          <div class="pageMenus">
+            <div class="productPageMenu">
+             <a href="http://amazon.com"> Achetez maintenant pour 219€ </a>
+            </div>
+            <div class="productPageMenu">
+              <a href="produit1.html">Plus d'infos</a>
+            </div>
+          </div>
+        </footer>
+        </article>
+        <article>
+          <header>
+            <h3>Notre chaise au top !</h3>
+          </header>
+          <section class="productRef">
+            <div class="productImg">
+              <a href="produit2.html"><img class="picProduct" src="img/chaise.jpg" alt="Photo chaise"/></a>
+            </div>
+            <div class="productText">
+              <h3>FORME PARFAITE POUR LE JEU</h3>
+              <p>Écrasez la concurrence en tout confort avec le Razer Iskur, notre siège ergonomique conçu pour le jeu hardcore qui vous permet de conserver une posture parfaite. Lorsqu’il s’agit de maintenir la bonne position, nous serons toujours à vos côtés.</p>
+            </div>
+            </section>
+          <footer >
+            <div class="pageMenus">
+              <div class="productPageMenu">
+               <a href="http://amazon.com"> Achetez maintenant pour 219€ </a>
+              </div>
+              <div class="productPageMenu">
+                <a href="produit2.html">Plus d'infos</a>
+              </div>
+            </div>
+          </footer>
+        </article>
+        <article>
+          <header>
+            <h3>Notre souris de ouf !</h3>
+          </header>
+          <section class="productRef">
+            <div class="productImg">
+              <a href="produit3.html"><img class="picProduct" src="img/souris.jpg" alt="Photo souris"/></a>
+            </div>
+            <div class="productText">
+              <h3>DEVANCEZ VOS ADVERSAIRES. 8 FOIS PLUS VITE </h3>
+              <p>La technologie Razer™ HyperPolling dépasse la norme standard de l’industrie en offrant un polling rate de 8000 Hz : elle permet d’envoyer jusqu’à 8 fois plus de données en une seconde tout en réduisant le délai de 1 à 1/8 de milliseconde. </p>
+            </div>
+            </section>
+          <footer>
+            <div class="pageMenus">
+              <div class="productPageMenu">
+               <a href="http://amazon.com"> Achetez maintenant pour 219€ </a>
+              </div>
+              <div class="productPageMenu">
+                <a href="produit3.html"> Plus d'infos</a>
+              </div>
+          </footer>
+        </article>
+  </section>
+  <section>
+    <article>
+      <header>
+        <h2>Prestations : </h2>
+      </header>
+        <div class="repaPhone">
+          <section>
+            <div class="productImg">
+              <img class="picProduct" src="img/repaTEL.jpg" alt ="photo reparation téléphone"/>
+            </div>
+            <div class="productText">
+              <p>Nous proposons des réparations de téléphone à partir de 49€</p>
+            </div>
+          </section>
+          <footer>
+            <div class="productPageMenu">
+              <a href="presta.html">Découvrez nos prestations</a>
+            </div>
+          </footer>
+        </div>
+        <div class="repaDesktop">
+          <section>
+            <div class="productImg">
+              <img class="picProduct" src="img/repaPC.jpeg" alt ="photo reparation Ordinateur"/>
+            </div>
+            <div class="productText">
+              <p>Nous proposons des réparations d'ordinateur à partir de 89€</p>
+            </div>
+          </section>
+          <footer>
+            <div class="productPageMenu">
+              <a href="presta.html">Découvrez nos prestations</a>
+            </div>
+          </footer>
+        </div>
+      <div class="repaIpad">
+        <section>
+          <div class="productImg">
+            <img class="picProduct" src="img/repaIPAD.jpg" alt ="photo reparation Ipad"/>
+          </div>
+          <div class="productText">
+            <p>Nous proposons des réparations de tablette à partir de 69€</p>
+          </div>
+        </section>
+        <footer>
+          <div class="productPageMenu">
+            <a href="presta.html">Découvrez nos prestations</a>
+          </div>
+        </footer>
+      </div>
+    </article>
+  </section>
+</main>
+  <footer class="bottom">
+    <p>Réseaux sociaux :</p>
+    <div class="logoRsGlobal">
+      <a href="https://twitter.com" target=_blank> <img class="logoRs" src="img/twitterlogo.png" alt="logo twitter"/></a>
+      <a href="https://facebook.com" target=_blank> <img class="logoRs" src="img/facebooklogo.jpg" alt="logo facebook"/></a>
+      <a href="https://instagram.com" target=_blank> <img class="logoRs" src="img/instalogo.png" alt="logo insta"/></a>
+      <a href="https://linkedin.com" target=_blank> <img class="logoRs" src="img/linkedinlogo.jpg" alt="logo linkedin"/></a>
+    </div>
+    <div class="footerMenu">
+      <a class="footerSize" href="contactus.html">Contact us</a>
+      <a class="footerSize" href ="quisommesnous.html">About us</a>
+      <a class="footerSize" href="legal.html">Mentions légales</a>
+    </div>
+  </footer>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 </html>

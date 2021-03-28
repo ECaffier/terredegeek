@@ -1,27 +1,31 @@
 <!doctype html>
 <html class="no-js" lang="">
 
-<head>
-  <meta charset="utf-8">
-  <title>Terre de Geek</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-  <link rel="icon" href="favicon.ico" />
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Terre de Geek</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+  
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" href="favicon.ico" />
+  
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+  
+    <meta name="theme-color" content="#fafafa">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
+  </head>
 
 <body>  
     <header>
@@ -38,43 +42,50 @@
         <img src="" alt="">
       </header>
         <section>
+          <h2>Contactez-nous en cas de besoin </h2>
+          <div class=form>
             <form method="post" action="traitement.php">
                 <p>
-                    <label for="contact">
-                        Contactez-nous en cas de besoin
-                    </label>
-                    <br/>
-                    <label for="nom">Nom (obligatoire)</label><br/>
+                  <fieldset>
+                    <legend>Vos coordonnées</legend><br/>
+                    <label for="nom">Nom (obligatoire)</label>
                     <input type="text" name="nom" id="nom" minlength="2" maxlength="40" required/>
-                    <br/>
-                    <label for="prenom">Prénom (obligatoire)</label><br/>
+
+                    <label for="prenom">Prénom (obligatoire)</label>
                     <input type="text" name="prenom" id="prenom" minlength="2" maxlength="40" required/>
-                    <br/>
-                    <label for="tel">Téléphone</label><br/>
+
+                    <label for="tel">Téléphone</label>
                     <input type="tel" name="tel"  id="tel"
                         pattern="[0-9]{10}"/>
-                    <br/>
-                    <label for="mail">Email (obligatoire)</label><br/>
+
+                    <label for="mail">Email (obligatoire)</label>
                     <input type="email" name="mail" id="mail" required/>
-                    <br/>
-                    <label for="age"> Âge</label><br/>
+
+                    <label for="age"> Âge</label>
                     <input type="number" name="age" id="age" min=7 max=77/>
-                    <br/>
-                    <label for="objet">Objet (obligatoire)</label><br/>
+
+                  </fieldset>
+                  <br/>
+                  <fieldset>
+                    <legend>Votre requête</legend>
+                  <br/>
+                    <label for="objet">Objet (obligatoire)</label>
                     <select name="objet" id="objet" required>
                         <option value="information">Information</option>
                         <option value="reclamation">Réclamation</option>
                         <option value="partenariat">Partenariat</option>
                         <option value="autre">Autre</option>
                    </select>
-                   <br/>
-                   <label for="precisez">Précisez (obligatoire)</label><br/>
-                   <textarea name="precisez" id="precisez" row="20" cols="40" required></textarea>
-                   <br/>
-                   <input type="submit" value="Envoyer">
-                
+                  <fieldset>
+
+                    <label for="precisez">Précisez (obligatoire)</label>
+                    <textarea name="precisez" id="precisez" row="20" cols="40" required></textarea>
+
+                    <input type="submit" value="Envoyer">
+                  </fieldset>              
                 </p>
             </form>
+            </div>
         </section>
     </main>
     <footer>

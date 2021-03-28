@@ -94,8 +94,9 @@ textarea {
     color: #DABECA;
     text-decoration: none;
     padding: 0;
-    width: 100vw;
+    width: 98vw;
     height: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -107,6 +108,8 @@ h1{
   margin-bottom: 10vh;
   display: flex;
   justify-content: center;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Shadows Into Light', cursive;
 
 }
 
@@ -219,6 +222,19 @@ header nav {
 .repaIpad, .repaDesktop{
   display: none;
 }
+
+.form {
+  width: 100%;
+  padding: 0.7em 1.2em;
+  margin: 0.5em 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
 @media screen and (min-width : 720px){
   *{
     font-size: 4vw;
@@ -244,31 +260,34 @@ header nav {
   *{
     font-size: 2vw;
   }
+  html{
+    max-width: 100vw;
+    max-height: auto;
+  }
   .repaIpad, .repaPhone{
     display: none;
   }
   .productImg{
-    width: 50vw;
+    width: 40vw;
     display: flex;
-    justify-content: left;
-    }
- 
+  }
+
   .picProduct{
     display: flex;
     width: 50vw;
     height: 60vh;
-    margin-right: 5px;
   }
   .repaDesktop{
     display: block;
   }
   .productRef{
     display: flex;
-    width: 100px;
   }
+
   .productText{
     display: flex;
     flex-direction: column;
+    width: 10vw;
   }
 
   .logoRs{
@@ -283,7 +302,8 @@ header nav {
   }
   
   .productText p{
-  width: 50vw;
+  width: 40vw;
+  height: auto;
   }
 
   .navBar a {
@@ -294,6 +314,18 @@ header nav {
   .firstParagraph{
     font-size: 2.3vw;
   }
+
+  .memberPic{
+    width: 20vw;
+    height: auto;
+  }
+  .prestaTable{
+    width:80vw;
+    height: auto;
+
+  }
+
+}
 
   /* ==========================================================================
    Helper classes
